@@ -335,7 +335,7 @@ Event: time 1531242361.906469, -------------- SYN_REPORT ------------
 
 ## Next steps
 
-### First goal: Using controller output
+### First goal: Using controller inputs
 
 1. Map inputs properly (buttons, knobs etc.)
 2. Parse incoming data into something useful
