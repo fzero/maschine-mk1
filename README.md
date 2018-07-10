@@ -6,9 +6,9 @@ As mentioned [here](https://twitter.com/fzero/status/1016733563226591234), the g
 2. Control pad and button lights via MIDI and/or OSC
 3. Control screens
 
-I'm focusing on the Maschine MKI for now because that's what I have - and I'm pretty sure I'm not the only one. I don't feel like throwing away perfectly good hardware and I despise Native Instruments' vendor lock-in practices, so I've decided to take matters on my own hands. This project should ultimately result in a stand-alone(ish) groovebox based on the Maschine controller and something like RaspberryPi or an Intel NUC. At the very least the Maschine it won't be 100% useless on Linux!
+I'm focusing on the Maschine MKI for now because that's what I have - and I'm pretty sure I'm not the only one. I don't feel like throwing away perfectly good hardware and I despise Native Instruments' vendor lock-in practices, so I've decided to take matters on my own hands. This project should ultimately result in a stand-alone(ish) groovebox based on the Maschine controller and something like RaspberryPi or an Intel NUC. At the very least Maschine won't be 100% useless on Linux!
 
-The Maschine Mikro, MK2 and more recent iterations use slightly more standardized protocols and there's already some work being done for them. I might get to most recent models someday if someone ever feels like sponsoring this project.
+The Maschine Mikro, MK2 and more recent iterations use slightly more standardized protocols and [there's already some work being done for them](https://github.com/wrl/maschine.rs). I might get to most recent models someday if someone ever feels like sponsoring this project.
 
 Also note that the MIDI ports already work on Linux using the `caiaq` kernel module. The focus of this project is the controller itself.
 
